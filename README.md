@@ -1,0 +1,6 @@
+# EnzymeCutPrimerDesign
+基于Selenium爬虫，通过诺唯赞提供的CEDesign在线引物设计软件进行酶切引物设计
+
+需要创建gene.txt用于存储待设计引物的基因列表
+
+修改main.py中的主程序来修改想要的酶切位点
