@@ -27,7 +27,7 @@ def fuckCEDesign(fastadic,enzymeA,enzymeB):
     chrome_options.add_argument('user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"')
     chrome_options.add_argument("--headless")
     # 对应的chromedriver的放置目录
-    driver = webdriver.Chrome(executable_path=(r'D:\GitRepository\EnzymeCutPrimerDesign\chromedriver.exe'), options=chrome_options)
+    driver = webdriver.Chrome(executable_path=(r'%PATH%\chromedriver.exe'), options=chrome_options)
     driver.implicitly_wait(10)
     driver.get(base_url)
     for seqname in fastadic.keys():
